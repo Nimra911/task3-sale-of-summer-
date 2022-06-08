@@ -1,0 +1,141 @@
+.choice__heading
+{
+    width: 100%;
+    max-width: 410px;
+   
+    margin: 24px auto 10px auto;
+    padding-top: 22px;
+     display: flex;
+     justify-content: center;
+     height: 40px;
+
+h2{
+    font-size: 27px;
+    font-weight: 500;
+    @media only screen and(max-width:600px) {
+        
+        font-size: 20px;
+     
+         }
+}
+@media only screen and(max-width:600px) {
+        
+  
+
+    padding-top: 30px; 
+     }
+}
+    
+
+
+
+.choice__main
+{
+    margin: 50px auto;
+  max-width: 1154px;
+    width: 100%;
+    min-height: 272px;
+    &__box{
+
+      
+     display: flex;
+     justify-content: space-evenly;
+   //   flex-wrap: wrap;
+   @media only screen and (max-width: 1024px) { 
+ flex-wrap: wrap;
+    };
+   
+     &-img{
+      width: 60px;
+    height: 45px;
+        z-index: 100;
+       
+     }
+     &__category
+     {
+        text-align: center;
+        align-items: center;
+     position: relative;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+    height: 210px;
+    
+    h2{
+        
+        font-weight: 600;
+    font-size: 16px;
+    }
+    p{
+     
+        width: 100%;
+   font-weight: normal;
+    max-width: 255px;
+    font-size: 11.9px;
+    line-height: 2;
+    text-align: center;
+    color: #808080;
+
+    //   @media only screen and(max-width:1024px) {
+    //      font-size: 12px;
+    //      width: 65%;
+    //   }
+      
+
+// @media only screen and(max-width:600px) {
+//    width: 65%;
+// }
+
+
+
+
+    }
+   
+     }
+    }
+     
+}
+.circle
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fbb03b;
+    top: 2%;
+    left: 57%;
+}
+.circle1
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f2f2f2;
+    top: 2%;
+    left: 57%;
+   
+}
+// .circle2
+// {
+//     width: 50px;
+//     height: 50px;
+//     border-radius: 50%;
+//     position: absolute;
+//     left: 58%;
+//     top: 28%;
+//     background-color: #f2f2f2;
+//    //  bottom: 61%;
+//    //  left: 39%;
+// }
+// .circle3
+// {
+//     width: 50px;
+//     height: 50px;
+//     left: 81%;
+//     top: 25%;
+//     border-radius: 50%;
+//     position: absolute;
+//     background-color: #f2f2f2;
+  
+// }

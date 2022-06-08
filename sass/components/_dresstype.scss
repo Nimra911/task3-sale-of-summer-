@@ -1,0 +1,223 @@
+
+.dresstype__main
+{ 
+min-height: 400px;
+&__newarrivals
+{
+    position: relative;
+    &__heading{
+        
+            display: flex;
+            height: 48px;
+            font-size: 14px;
+            flex-direction: column;
+            justify-content: space-between;
+            color: white;
+            font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  h2
+  {
+    font-weight: normal;
+    font-size: 19px;
+ 
+    font-family: Poppins;
+  }
+        
+    }
+// flex-basis: 30%;
+img{
+    
+    width: 461px;
+    height: 272px;
+    z-index: -2;
+
+@media only screen and(max-width:600px) {
+    max-width: 100%;
+    width: 527px;
+}
+
+    // @media only screen and(max-width:480px) {
+    //     width: 250px;
+    // height: 272px;
+    // }
+   
+
+}
+}
+&__basic
+{
+    position: relative;
+img{
+    width: 219px;
+    height: 272px;
+    z-index: -2;
+    // @media only screen and(max-width:600px) {
+    //     width: 100%;
+    // }
+    @media only screen and(max-width:600px) {
+        max-width: 100%;
+        width: 527px;
+      
+    }
+    // @media only screen and(max-width:480px) {
+    //     width: 250px;
+    // height: 272px;
+    // }
+   
+}
+}
+    &__category
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 294px;
+    &-button{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        border-radius: 1rem;
+        background-color: #fbb03b;
+        border-radius: 20px;
+        text-transform: uppercase;
+        width: 122px;
+        font-size: 11px;
+    height: 36px;
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    &-button1{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        border-radius: 1rem;
+        background-color: #fbb03b;
+        border-radius: 20px;
+        font-size: 11px;
+        width: 97px;
+        height: 33px;
+        text-transform: uppercase;
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+
+
+        @media  only screen and (max-width:480px) {
+            width: 99px;
+            height: 35px;
+
+           
+        }
+    }
+    &__text
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        flex-direction: column;
+        height: 109px;
+        font-size: 10px;
+        top: 97px;
+        position: absolute;
+        width: 50%;
+        z-index: 1;
+        @media  only screen and (max-width:600px) {
+            width:100%;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+    &__text1
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        flex-direction: column;
+        height: 109px;
+        font-size: 10px;
+        top: 97px;
+        position: absolute;
+        width: 70%;
+        z-index: 1;
+        @media  only screen and (max-width:600px) {
+            width:100%;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        &-anchor{
+            color: black;
+    text-decoration: none;
+    display: flex;
+    border-radius: 1rem;
+    background-color: #ff0000;
+    border-radius: 20px;
+    width: 33px;
+    height: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    top: -35%;
+    position: absolute;
+    left: 29%;
+    @media  only screen and (max-width:600px) {
+        width: 40px;
+        height: 25px;
+        background-color:#fbb03b;
+        left: 45%;
+    }
+    @media  only screen and (max-width:375px) {
+       
+        left: 43%;
+    }
+        }
+    }
+}
+ }
+ .back
+ {
+   
+        width: 219px;
+        height: 272px;
+        
+        top: 0%;
+        background-color: rgba(0,0,0,.3);
+        z-index: 200;
+        position: absolute;
+        @media only screen and(max-width:600px) {
+            max-width: 100%;
+            width: 527px;
+          
+        }
+       
+ }
+ .background
+ {
+   
+    width: 461px;
+    height: 272px;
+        top: 0%;
+        background-color: rgba(0,0,0,.3);
+        z-index: 200;
+        position: absolute;
+        @media only screen and(max-width:600px) {
+            max-width: 100%;
+            width: 527px;
+        }
+     
+    
+       
+ }

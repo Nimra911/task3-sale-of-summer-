@@ -1,0 +1,81 @@
+@import url('/Poppins/style.css');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+    
+        
+// @include respond(phone)     //600 1rem equal 8px         0-600px phone 8/16
+// {
+//     font-size: 50%;
+// }
+
+// @include respond(tab-land)     //       1rem equal 9px 1200px-1024 tablet landscape 9/16
+// {
+//     font-size: 56.25%;
+// }
+
+
+
+//     @include respond(tab-port)     //1024-900 1rem equal 8px    
+//     {
+//         font-size: 50%;
+//     }
+//     @include respond(tab-medium)     //900-768 1rem equal 8px   
+//     {
+//         font-size: 50%;
+//     }
+//  @include respond(tab-small)     //768-600 1rem equal 7px    
+//     {
+//         font-size: 43%;
+//      }
+//      @include respond(phone)     //600-480 1rem equal 7px    
+//      {
+//          font-size: 43%;
+//       }
+//       @include respond(phone-small)     //480-320 1rem equal 7px   
+//       {
+//           font-size: 43%;
+//        }
+// @include respond(big-desktop)     //1800+  1 rem equal 12px   12/16     
+// {
+//     font-size: 75%;
+// }
+
+
+}
+
+/* Things related to font always write in body not in univeral selector*/
+body {
+    box-sizing: border-box;
+    // /* only for now change it later */
+    font-family: 'Poppins', sans-serif;
+    //   /* only for now change it later */
+    // color:$color-black;
+    letter-spacing: normal;
+    font-weight: normal;
+   
+}
+.row
+{
+    width: 100%;
+   
+}
+::selection
+{
+    // background-color: $color-green;
+    // color: $color-white;
+}
+// section{
+//     @include respond(tab-port)     //900 1rem equal 8px    600-900px tablet portrait 8/16
+//     {
+//        margin-top: 15rem;
+//        margin-bottom: 15rem;
+//     }
+// }

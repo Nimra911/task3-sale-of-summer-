@@ -1,0 +1,131 @@
+.feedback__box {
+    min-height: 431px;
+display: flex;
+width: 100%;
+    margin: 0 auto;
+    max-width: 1396px;
+flex-wrap: wrap;
+justify-content: space-between;
+    align-items: center;
+    &__arrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+        height: 55px;
+       
+        align-items: center;
+}
+
+    &__headingarea {
+display: flex;
+width: 43%;
+justify-content: space-between;
+position: relative;
+align-items: center;
+color: #5e6282;
+font-weight: bold;
+flex-wrap: wrap;
+
+
+
+
+        &__1 {
+            width: 502px;
+            height: 243px;
+    background-color: white;
+    padding: 45px;
+    border-radius: 7px;
+    z-index: 1000;
+    box-shadow: 0 9px 22px -1px rgba(0,0,0,0.25);
+img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 88%;
+    left: -3%;
+}
+    &-body{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 152px;
+        h2{
+        font-weight: 600;
+        }
+        p{
+            font-size: 14px;
+            line-height: 1.7;
+            font-weight: 500;
+            text-align: left;
+   
+        }
+    }
+    &-main{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       height: 51px;
+   }
+        }
+        &__2 {
+            width: 502px;
+            height: 243px;
+    background-color: white;
+    padding: 45px;
+    z-index: 200;
+    display: flex;
+    position: absolute;
+    border-radius: 7px;
+    align-items: end;
+    left: 6%;
+    top: 32%;
+    box-shadow: 0 9px 22px -1px rgba(0,0,0,0.25);
+    @media only screen and (max-width:1200px){
+        left: 0;  
+    }
+    @media only screen and (max-width:1024px){
+        left: 0;  
+        width: 442px;
+    }
+    &-main{
+        display: flex;
+        height: 46px;
+        margin-bottom: -6%;
+        justify-content: space-between;
+        flex-direction: column;
+        h2{
+            font-weight: 600;
+        }
+        p{
+            font-size: 14px;
+    line-height: 1.7;
+    font-weight: 500;
+    text-align: left;
+        }
+    }
+        }
+    }
+
+    &__mainheading {
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        width: 25%;
+        justify-content: space-between;
+     
+        margin-top: -10%;
+
+        &__smallhead {
+            font-size: 25px;
+            color: #fbb03b;
+            font-weight: bold;
+        }
+
+        &__mainhead {
+            font-size: 40px;
+            font-weight: bold;
+
+        }
+    }
+}

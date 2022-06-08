@@ -1,0 +1,64 @@
+.delivery
+{
+    background-color: transparent;
+    position: absolute;
+    bottom: 12%;
+}
+.options
+{
+    background-color: #fff;
+    @media only screen and(max-width:600px) {
+        display: none; 
+     }
+}
+.option2
+{
+    display: none;
+    background-color: #fff;
+    @media only screen and(max-width:600px) {
+        display: block; 
+     }
+}
+.product
+{
+    @media only screen and(max-width:900px) {
+        display: none; 
+     }
+    background-color: #fff;
+}
+.choice
+{
+    background-color: 
+    #f5f6fa;
+    // position: relative;
+    @media only screen and(max-width:600px) {
+        display: none;
+    }
+}
+.choice2
+{
+
+
+    display: none;
+    @media only screen and(max-width:600px) {
+        display: block;
+        background-color: 
+        #f5f6fa;
+    }
+   
+    // position: relative;
+}
+.dresstype
+{
+    background-color: 
+    #f5f6fa;
+    // position: relative;
+}
+
+.feedback
+{
+    background-color: #f5f6fa;
+    @media only screen and(max-width:900px) {
+        display: none; 
+     }
+}
